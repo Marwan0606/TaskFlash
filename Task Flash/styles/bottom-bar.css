@@ -1,0 +1,31 @@
+.flex-container-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-bar {
+  position: fixed;
+
+  bottom: 55px;
+
+  width: 25%;
+  height: 70px;
+
+
+  border-style: solid;
+  border-color: black;
+  border-radius: 25px;
+
+  background-color: white;
+
+  box-shadow: black;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+    
+  box-shadow: 0px 0px 10px rgb(122, 87, 142);
+}

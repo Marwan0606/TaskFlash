@@ -1,0 +1,63 @@
+.header {
+  margin-top: 20px;
+
+  top: 20px;
+
+  width: 90%;
+  height: 100px;
+  
+  border-radius: 25px;
+
+  background-color: rgb(187, 0, 255);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  box-shadow: 0px 0px 10px rgb(122, 87, 142);
+}
+
+.flex-container-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.settings-icon {
+  height: 40px;
+}
+
+.left-section {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 70px;
+}
+
+.right-section {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 50px;
+  justify-content: flex-end;
+  margin-right: 70px;
+}
+
+.login-button {
+  border-radius: 10px;
+  height: 50px;
+  width: 150px;
+
+  background-color: white;
+  color: rgb(187, 0, 255);
+  font-weight: bold;
+}
+
+.logo {
+  color: white;
+  font-weight: bold;
+
+  font-size: 25px;
+}
+
+
